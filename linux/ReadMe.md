@@ -39,6 +39,15 @@ A simple C++ program to copy files from the current directory into a timestamped
 - Backups are stored in a `backup` folder in the current directory.
 - Errors are logged to `back.log` if they occur.
 
+## Quick Install (Linux)
+
+To install the Linux version system-wide, run:
+
+```sh
+wget -O backupper https://github.com/CurveZ/QBackupper/releases/download/v1.0.0/backupper_1.0_linux
+sudo cp backupper /bin/
+sudo chmod a+x /bin/backupper
+```
 
 ## Example Output
 

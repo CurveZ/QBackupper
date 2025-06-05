@@ -21,7 +21,19 @@ A personal tool, one of the simplest yet most frequently used. So why not share 
 - The Linux version is a command-line utility.
 - It uses standard Linux tools and libraries for file operations.
 
+
+
 [See the Linux version](linux/ReadMe.md)
+
+### Quick Install (Linux)
+
+To install the Linux version system-wide, run:
+
+```sh
+wget -O backupper https://github.com/CurveZ/QBackupper/releases/download/v1.0.0/backupper_1.0_linux
+sudo cp backupper /bin/
+sudo chmod a+x /bin/backupper
+```
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
