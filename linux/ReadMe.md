@@ -1,10 +1,11 @@
 # Backupper
 
-A simple C++ program to back up files from the current directory into a timestamped subfolder.
+A simple C++ program to copy files from the current directory into a timestamped subfolder.
 
 ## Features
 
-- Copies all files (or only programming files, if you want) from the current directory to `backup/YYYY-MM-DD_HH-MM-SS/`
+- Copies all files (or only certain files, if you want) from the current directory to `backup/YYYY-MM-DD_HH-MM-SS/`
+- Directories are named so they are sorted both alphabetically and by date.
 - Colored terminal output for status messages
 - Human-readable file size and time formatting
 - Error logging to `back.log` (only if errors occur)
@@ -14,7 +15,7 @@ A simple C++ program to back up files from the current directory into a timestam
 
 1. **Build:**
     ```sh
-    g++ -std=c++17 -o backupper back.cpp
+    g++ -o backupper back.cpp --static
     ```
 
 2. **Run:**
@@ -37,7 +38,7 @@ A simple C++ program to back up files from the current directory into a timestam
 - Only files in the current directory are copied (no subdirectories).
 - Backups are stored in a `backup` folder in the current directory.
 - Errors are logged to `back.log` if they occur.
-- If you ever see "PB" for a tiny file, blame the AI, not the hardware! 🥬
+
 
 ## Example Output
 
