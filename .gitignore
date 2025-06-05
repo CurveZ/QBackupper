@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# But do not ignore these files and folders:
+
+!.gitignore
+!ReadMe.md
+!LICENSE
+
+!windows/
+!linux/
+
+!windows/back.cpp
+!windows/back.h
+!windows/ReadMe.md
+!windows/context_menu_toggle.cpp
+
+!linux/back.cpp
+!linux/ReadMe.md
