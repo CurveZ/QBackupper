@@ -4,6 +4,9 @@
 keRveL
 
 ## Description
+
+!FOR v 2.0 see releases!
+
 Backupper is a simple Windows utility that copies all files from a selected directory to a timestamped backup folder. The backup folder is named using a timestamp in the format `backups/YYYY-MM-DD_HH-MM-SS`, which means your backups are both lexicographically (alphabetically) and chronologically sorted for easy browsing. It is designed to be run from the Windows Explorer context menu and uses message boxes for all user interaction (no console window).
 
 **Note:** The word "backup" in this program refers to creating a copy of the files in the selected directory. This is not a "real" backup in the traditional sense of the word. It simply creates a copy of the files.
